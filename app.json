@@ -1,0 +1,31 @@
+{
+  "name": "SMS to email",
+  "description": "use flask receive SMS from post,and push it to a email",
+  "image": "heroku/python",
+  "keywords": [
+    "python",
+    "flask"
+  ],
+  "env": {
+    "FROM_EMAIL": {
+      "description": "email sender",
+      "value": "***@gmai.com"
+    },
+    "FROM_EMAIL_PASSWORD": {
+      "description": "email sender password",
+      "value": "***"
+    },
+    "TO_EMAIL": {
+      "description": "Email receiver",
+      "value": "***@email.com"
+    },
+    "SMTP_SERVER": {
+      "description": "smtp server",
+      "value": "***@email.com"
+    },
+    "SMTP_PORT": {
+      "description": "smtp port",
+      "value": "***@email.com"
+    }
+  }
+}
