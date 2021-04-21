@@ -21,11 +21,11 @@
     },
     "SMTP_SERVER": {
       "description": "smtp server",
-      "value": "***@email.com"
+      "value": "smtp.qq.com"
     },
     "SMTP_PORT": {
       "description": "smtp port",
-      "value": "***@email.com"
+      "value": "465"
     }
   }
 }
